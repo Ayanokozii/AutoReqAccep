@@ -8,7 +8,7 @@ class Config(object):
     # Client Config 
     API_ID = int(os.environ.get('API_ID', '21189715')) # ⚠️ Required
     API_HASH = os.environ.get('API_HASH', '988a9111105fd2f0c5e21c2c2449edfd') # ⚠️ Required
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '7296474165:AAHypE_ZatCtoRqd2UFSaeqSvz-d96TZEmk') # ⚠️ Required
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '7421052524:AAFcKa0yuQ8Q2oZVPiBSZL-J3rcujrCSrHk') # ⚠️ Required
 
     # database config
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://ayanosuvii0925:subhichiku123@cluster0.uw8yxkl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # ⚠️ Required
